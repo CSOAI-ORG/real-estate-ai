@@ -1,0 +1,40 @@
+{
+  "name": "@meok-global/real-estate-ai",
+  "version": "1.0.0",
+  "description": "Assess compliance for AI in real estate. Covers automated valuation, tenant screening, fair housing, advertising targeting, and smart building management.",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "real-estate-ai-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.12.0"
+  },
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meok-global/mcp-servers.git",
+    "directory": "packages/real-estate-ai"
+  },
+  "author": "MEOK AI Labs — Cyber Security Global Alliance",
+  "keywords": [
+    "mcp",
+    "ai-governance",
+    "compliance",
+    "real-estate-ai"
+  ]
+}
